@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wura's Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <!-- heeader -->
+    <header class="mainHeader">
+        <div>
+            <a href="https://docs.google.com/document/d/1gTmPlXN5l4Ch-ESpsRAFGvaGW0tZGMBnTffy2RiVb70/edit">CV</a>
+        </div>
+        <!-- nav -->
+        <nav class="navBar">
+            <ul class="mainList">
+                <li class="listItems">
+                    <a href="#about">About</a>
+                </li>
+                <li class="listItems">
+                    <a href="#skills">Skills</a>
+                </li>
+                <li class="listItems">
+                    <a href="#project">Project</a>
+                </li>
+
+                <li class="listItems">
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
+        </nav>
+        <button class="showModal">Hola!</button>
+    </header>
+    <!-- main content -->
+    <main>
+        <section id="about">
+            <div class="section1 allSection">
+                <!-- image div -->
+                <div class="beachPhoto">
+                    <img src="beachPhoto.jpg" alt="authorsPhoto" />
+                </div>
+                <!-- section 1 content -->
+                <h1>Hola Amigos🤗</h1>
+                <p>I am frontend developer, I want to be of service to you.</p>
+            </div>
+        </section>
+        <section class="section2 allSection" id="skills">
+            <div class="section2">
+                <h2>My skills</h2>
+                <div>
+                    <ul class="mainList">
+                        <li class="listItems">HTML</li>
+                        <li class="listItems">CSS</li>
+                        <li class="listItems">Javscript</li>
+                        <li class="listItems">VUEJS</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section id="project">
+            <div class="section3 allSection">
+                <h3>My Projects</h3>
+                <div>
+                    <a href="https://wuraola-assignment2.netlify.app/"><img src='project1.PNG' /></a>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <div class="section3 allSection">
+                <h4>Contacts</h4>
+                <div class="subSection3">
+                    <ul class="mainList"></ul>
+                    <li class="listItems">
+                        <p class="email">Wurafullstack@gmail.com</p>
+                    </li>
+                    </ul>
+                    <li class="listItems"><a href="https://www.linkedin.com/public-profile/settings?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_self_edit_contact-info%3BdR0C0dBaQC%2BQWv5cffRYDw%3D%3D">LinkedIn</a
+            ></li>
+            <li class="listItems"><a href="https://github.com/Wuraola1">Github</a></li>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- footer -->
+    <footer>
+        <div class="footerContents">
+            <p>made with love❤</p>
+            <p>&copy; Marcus</p>
+        </div>
+    </footer>
+    <!-- modal -->
+    <div class="modal hidden">
+        <button class="closeModal">&times;</button>
+        <p>I am passionate about Software Development and intend to do this for a long time. I will be updating this as my journey unfolds</p>
+    </div>
+    <div class="overlay hidden"></div>
+    <script src="script.js"></script>
+</body>
+
+</html>
